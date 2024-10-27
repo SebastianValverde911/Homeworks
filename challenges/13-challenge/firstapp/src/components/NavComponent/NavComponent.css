@@ -1,0 +1,25 @@
+.container-menu {
+    background-color: #396ed1;
+    display: flex;
+    gap: 10px;
+    margin: 0;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 0 20px;
+}
+
+.container-menu ul {
+   display: flex;
+   flex-direction: row;
+}
+
+.container-menu ul .item-menu {
+    list-style-type: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.container-menu ul .item-menu:hover {
+    background-color: #c4d1eb38 ;
+}
